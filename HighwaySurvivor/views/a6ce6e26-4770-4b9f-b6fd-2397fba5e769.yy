@@ -7,7 +7,7 @@
         "c1537ba4-f520-4a7f-b3e8-0ef9ccc312ce"
     ],
     "filterType": "GMObject",
-    "folderName": "obj_vehicle",
+    "folderName": "vehicle",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

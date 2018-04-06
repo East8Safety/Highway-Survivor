@@ -8,7 +8,7 @@
         "66c53037-a1b3-478f-bfed-ee6679713380"
     ],
     "filterType": "GMScript",
-    "folderName": "scr_algorithm",
+    "folderName": "zombie",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -11,7 +11,7 @@
         "01c8a78f-cf83-42e3-aba7-e2e923a3f4c0"
     ],
     "filterType": "GMObject",
-    "folderName": "obj_zombie",
+    "folderName": "zombie",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

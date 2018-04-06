@@ -7,7 +7,8 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "acd634d7-1410-4c89-b91a-830c3bab2ce4"
+        "acd634d7-1410-4c89-b91a-830c3bab2ce4",
+        "b4cd0754-6be6-4cb1-b39f-ed74fe6abcee"
     ],
     "IsDnD": true,
     "layers": [
@@ -25,7 +26,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_582C0FB5","id": "acd634d7-1410-4c89-b91a-830c3bab2ce4","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_582C0FB5","objId": "c1537ba4-f520-4a7f-b3e8-0ef9ccc312ce","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 576,"y": 480}
+{"name": "inst_582C0FB5","id": "acd634d7-1410-4c89-b91a-830c3bab2ce4","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_582C0FB5","objId": "c1537ba4-f520-4a7f-b3e8-0ef9ccc312ce","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 576,"y": 480},
+{"name": "inst_72632252","id": "b4cd0754-6be6-4cb1-b39f-ed74fe6abcee","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_72632252","objId": "33c969aa-6a24-4fd2-ac9a-b579b4c7ad67","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1120,"y": 480}
             ],
             "layers": [
 

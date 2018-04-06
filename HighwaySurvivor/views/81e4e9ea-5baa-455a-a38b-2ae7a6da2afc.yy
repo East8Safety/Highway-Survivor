@@ -7,7 +7,7 @@
         "eb5794f1-ce08-4080-b581-62a8dcd89bf7"
     ],
     "filterType": "GMObject",
-    "folderName": "obj_survivor",
+    "folderName": "survivor",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

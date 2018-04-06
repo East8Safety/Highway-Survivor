@@ -8,7 +8,7 @@
         "eae73210-78ca-4f44-8629-3117dd711a0f"
     ],
     "filterType": "GMScript",
-    "folderName": "scr_sedanCar",
+    "folderName": "sedanCar",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

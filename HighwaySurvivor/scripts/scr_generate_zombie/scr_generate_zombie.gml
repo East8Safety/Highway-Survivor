@@ -1,21 +1,17 @@
-var random_number = irandom(5);
-
-switch (random_number) {
-	case 0:
+//刷新僵尸种类
+var random_number = irandom(100);
+if (random_number>0&&random_number<=40) {
 	return obj_zombie001;
-	break;
-	case 1:
+}
+else if (random_number>40&&random_number<=60) {
 	return obj_zombie002;
-	break;
-	case 2:
+}
+else if (random_number>60&&random_number<=80) {
 	return obj_zombie003;
-	break;
-	case 3:
+}
+else if (random_number>80&&random_number<=90) {
 	return obj_zombie004;
-	break;
-	case 4:
-	return obj_zombie005;
-	break;
-	default:
+}
+else if (random_number>90&&random_number<=100) {
 	return obj_zombie005;
 }

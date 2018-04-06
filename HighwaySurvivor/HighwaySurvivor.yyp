@@ -66,7 +66,7 @@
             "Key": "1610ba64-d586-490d-912e-1dd6e08d5adb",
             "Value": {
                 "id": "7b4def75-e788-4f4f-b22e-e2989e80d74a",
-                "resourcePath": "sprites\\highwayDebris006\\highwayDebris006.yy",
+                "resourcePath": "sprites\\spr_HD006\\spr_HD006.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -76,6 +76,14 @@
                 "id": "322fa341-4c98-4fe6-9a7d-ebfc15ce85f1",
                 "resourcePath": "sprites\\spr_zombie004\\spr_zombie004.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "208e296e-abc5-429d-a0bc-56543f1a0292",
+            "Value": {
+                "id": "f2e7d49d-f3cb-442e-84e9-cdbac45f7804",
+                "resourcePath": "scripts\\scr_room_create\\scr_room_create.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -98,7 +106,7 @@
             "Key": "2fc90c2b-65d3-4613-b6c8-67564c7679f3",
             "Value": {
                 "id": "60d28fee-3617-43bb-bac2-b677fc1ef3c1",
-                "resourcePath": "scripts\\scr_DH_Parent\\scr_DH_Parent.yy",
+                "resourcePath": "scripts\\scr_HD_Parent\\scr_HD_Parent.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -114,8 +122,16 @@
             "Key": "329d5a47-d0ef-4ec0-96e1-8c33b85c5960",
             "Value": {
                 "id": "4ab52ded-585d-4939-8a67-40d15d8cccd3",
-                "resourcePath": "sprites\\highwayDebris004\\highwayDebris004.yy",
+                "resourcePath": "sprites\\spr_HD004\\spr_HD004.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "33c969aa-6a24-4fd2-ac9a-b579b4c7ad67",
+            "Value": {
+                "id": "69e87bab-2bda-47de-b3a0-6160ca0a8ece",
+                "resourcePath": "objects\\obj_room_create\\obj_room_create.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -138,7 +154,7 @@
             "Key": "3b502491-051d-4817-8c1d-d39fea114199",
             "Value": {
                 "id": "f0d95d7a-c4a5-448b-8837-e5919a4127e5",
-                "resourcePath": "sprites\\highwayDebris002\\highwayDebris002.yy",
+                "resourcePath": "sprites\\spr_HD002\\spr_HD002.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -186,7 +202,7 @@
             "Key": "4e0500ec-f101-43c6-bbe9-783edaa216c2",
             "Value": {
                 "id": "0d526862-d329-4e1e-bea1-5bb2441b85e7",
-                "resourcePath": "sprites\\highwayDebris005\\highwayDebris005.yy",
+                "resourcePath": "sprites\\spr_HD005\\spr_HD005.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -239,6 +255,14 @@
             }
         },
         {
+            "Key": "75f51ae9-bd73-44a3-9197-11f1dc4ef69e",
+            "Value": {
+                "id": "f6a216db-af97-4b03-9ad3-9b9dfe0b0fad",
+                "resourcePath": "views\\75f51ae9-bd73-44a3-9197-11f1dc4ef69e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7836e6a4-5eac-4b55-b107-8983904cc933",
             "Value": {
                 "id": "7cd9c741-745a-4902-a161-9665f9611e85",
@@ -259,6 +283,14 @@
             "Value": {
                 "id": "2947b71f-c39d-48d2-8dfa-77dd292974ac",
                 "resourcePath": "views\\7f050a36-8462-4ff9-9a03-9ddc4c3c74e2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7f48f261-160b-4f87-8201-574704a8f658",
+            "Value": {
+                "id": "1433f48c-6ab6-4add-ada3-9a7d917dc47a",
+                "resourcePath": "views\\7f48f261-160b-4f87-8201-574704a8f658.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -338,7 +370,7 @@
             "Key": "a18df598-e11f-47e9-9bc9-7caa4dd800a2",
             "Value": {
                 "id": "28a00640-59fe-42e6-9508-de08e8f7e41d",
-                "resourcePath": "sprites\\highwayDebris003\\highwayDebris003.yy",
+                "resourcePath": "sprites\\spr_HD003\\spr_HD003.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -482,7 +514,7 @@
             "Key": "d17fdc0c-87a1-4315-948c-3dc057390f9d",
             "Value": {
                 "id": "9913d5f6-684d-4d14-95b1-0f9f2146ef3e",
-                "resourcePath": "sprites\\highwayDebris001\\highwayDebris001.yy",
+                "resourcePath": "sprites\\spr_HD001\\spr_HD001.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -548,7 +580,8 @@
         "eae73210-78ca-4f44-8629-3117dd711a0f",
         "2fc90c2b-65d3-4613-b6c8-67564c7679f3",
         "c8624495-9f34-4f9c-a275-a739a8c8a27d",
-        "66c53037-a1b3-478f-bfed-ee6679713380"
+        "66c53037-a1b3-478f-bfed-ee6679713380",
+        "208e296e-abc5-429d-a0bc-56543f1a0292"
     ],
     "tutorial": ""
 }

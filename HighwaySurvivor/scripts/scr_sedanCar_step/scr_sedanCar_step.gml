@@ -1,9 +1,12 @@
-obj_sedanCar.x = obj_sedanCar.x + r_speedX;
+//车辆前进
+obj_sedanCar.x += car_speedX;
 
+//循环前进
 if (obj_sedanCar.x >= 2880) {
 	obj_sedanCar.x = 960;
 }
 
+//对象刷新
 switch (obj_sedanCar.x) {
 	case 965:
 	instance_create_depth(obj_sedanCar.x+955, 540, -999, obj_HD001);
