@@ -5,7 +5,7 @@
     "name": "obj_room_create",
     "eventList": [
         {
-            "id": "124c2ab6-3279-4ee8-9aad-497f4bb6b909",
+            "id": "829ee48f-ca32-416f-b979-d06e057e103f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,

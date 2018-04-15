@@ -1,6 +1,19 @@
-instance_create_depth(obj_sedanCar.x-960, 540, -999, obj_HD001);
-instance_create_depth(obj_sedanCar.x-640, 540, -999, obj_HD002);
-instance_create_depth(obj_sedanCar.x-320, 540, -999, obj_HD003);
-instance_create_depth(obj_sedanCar.x+0, 540, -999, obj_HD004);
-instance_create_depth(obj_sedanCar.x+320, 540, -999, obj_HD005);
-instance_create_depth(obj_sedanCar.x+640, 540, -999, obj_HD006);
+randomize();
+
+with(obj_sedanCar){
+	scr_HD_generate(1,x-960);
+	scr_HD_generate(2,x-640);
+	scr_HD_generate(3,x-320);
+	scr_HD_generate(4,x+0);
+	scr_HD_generate(5,x+320);
+	scr_HD_generate(6,x+640);
+
+	scr_zombie_generate(x-960);
+	scr_zombie_generate(x-640);
+	scr_zombie_generate(x-320);
+	scr_zombie_generate(x+0);
+	scr_zombie_generate(x+320);
+	scr_zombie_generate(x+640);
+	
+	scr_building_generate(480);
+}

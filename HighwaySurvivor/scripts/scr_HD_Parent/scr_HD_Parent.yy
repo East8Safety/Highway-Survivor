@@ -4,5 +4,5 @@
     "mvc": "1.0",
     "name": "scr_HD_Parent",
     "IsCompatibility": false,
-    "IsDnD": true
+    "IsDnD": false
 }
