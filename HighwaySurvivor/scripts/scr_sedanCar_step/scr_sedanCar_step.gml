@@ -1,6 +1,6 @@
 //车辆前进
 with(obj_sedanCar){
-	//x += car_speedX;
+	x += car_speedX;
 }
 
 //循环前进

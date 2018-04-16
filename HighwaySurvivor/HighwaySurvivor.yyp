@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "14df8e32-897e-49a4-b2b5-9f1248fc51d9",
+            "Value": {
+                "id": "fa3f2f5d-493e-488a-96fb-3c622dc750dc",
+                "resourcePath": "scripts\\scr_survivor_direction\\scr_survivor_direction.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1610ba64-d586-490d-912e-1dd6e08d5adb",
             "Value": {
                 "id": "7b4def75-e788-4f4f-b22e-e2989e80d74a",
@@ -204,6 +212,14 @@
                 "id": "c7810c22-d50c-454a-989a-3c2364d0e979",
                 "resourcePath": "views\\38b7d9cd-2f06-46b4-91c3-814670ea5b5f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "39aee06e-00d0-4207-9a3a-363d1a70b2ae",
+            "Value": {
+                "id": "73df428a-2069-4cc7-b337-ab6121afcd58",
+                "resourcePath": "scripts\\scr_survivor_create\\scr_survivor_create.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -426,7 +442,7 @@
             "Key": "92b7a043-8e72-4e1f-96ac-a137ec7bb2b8",
             "Value": {
                 "id": "9591bb82-5a9a-4fa7-ae93-555701e43de0",
-                "resourcePath": "sprites\\spr_survivor1_walk_front\\spr_survivor1_walk_front.yy",
+                "resourcePath": "sprites\\spr_survivor1_walk_side\\spr_survivor1_walk_side.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -663,6 +679,14 @@
             }
         },
         {
+            "Key": "d62152ae-f013-45b7-b325-a05db3542404",
+            "Value": {
+                "id": "f7132db2-f288-4a94-b6b5-e888e8abbf2c",
+                "resourcePath": "sprites\\spr_survivor1_walk_front\\spr_survivor1_walk_front.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e658930c-5cd7-401a-9a7a-1742d1c695b2",
             "Value": {
                 "id": "fe6e5125-c965-4e60-a1b8-1c2f6cf77122",
@@ -740,7 +764,9 @@
         "cc174606-ffdd-48d7-ab07-78dec4a9b84b",
         "a9348fe9-e002-4a0c-84fe-db3de76419d6",
         "9c6538fd-387f-4cac-a750-a002e648861c",
-        "34859077-83a5-4e82-b1a1-a358331d0bd5"
+        "34859077-83a5-4e82-b1a1-a358331d0bd5",
+        "39aee06e-00d0-4207-9a3a-363d1a70b2ae",
+        "14df8e32-897e-49a4-b2b5-9f1248fc51d9"
     ],
     "tutorial": ""
 }
