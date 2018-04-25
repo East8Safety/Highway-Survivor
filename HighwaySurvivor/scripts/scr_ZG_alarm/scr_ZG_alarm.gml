@@ -33,8 +33,8 @@ if(object_exists(obj_warehouse)){
 		x -= 1920;
 	}
 }
-if(object_exists(obj_survivor001)){
-	with(obj_survivor001) {
+if(object_exists(obj_bdxz)){
+	with(obj_bdxz) {
 		x -= 1920;
 	}
 }

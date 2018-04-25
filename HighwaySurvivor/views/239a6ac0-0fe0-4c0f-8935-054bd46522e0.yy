@@ -4,9 +4,9 @@
     "mvc": "1.1",
     "name": "239a6ac0-0fe0-4c0f-8935-054bd46522e0",
     "children": [
-        "4f3d6b3c-087c-4861-abfc-b7a10b103758",
-        "92b7a043-8e72-4e1f-96ac-a137ec7bb2b8",
-        "d62152ae-f013-45b7-b325-a05db3542404"
+        "f38efa37-bab2-4186-84f8-af9de5d9e22a",
+        "d1061716-5629-4935-aed9-7761a3b8c362",
+        "56a6e7b6-bb75-4bf8-953a-370191f393c0"
     ],
     "filterType": "GMSprite",
     "folderName": "survivor",

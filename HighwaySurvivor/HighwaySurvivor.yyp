@@ -82,7 +82,7 @@
             "Key": "14df8e32-897e-49a4-b2b5-9f1248fc51d9",
             "Value": {
                 "id": "fa3f2f5d-493e-488a-96fb-3c622dc750dc",
-                "resourcePath": "scripts\\scr_survivor_direction\\scr_survivor_direction.yy",
+                "resourcePath": "scripts\\scr_bdxz_direction\\scr_bdxz_direction.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -116,6 +116,14 @@
                 "id": "f2e7d49d-f3cb-442e-84e9-cdbac45f7804",
                 "resourcePath": "scripts\\scr_room_create\\scr_room_create.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2232fcf4-c80a-4571-8b2c-9a334e5b66a4",
+            "Value": {
+                "id": "863b9161-3672-4891-a6d5-34e993ed20d8",
+                "resourcePath": "sprites\\spr_bdxz_revolver_idle\\spr_bdxz_revolver_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -186,7 +194,7 @@
             "Key": "34859077-83a5-4e82-b1a1-a358331d0bd5",
             "Value": {
                 "id": "6d077c44-4350-48ad-91ae-d4e38116602e",
-                "resourcePath": "scripts\\scr_survivor_walk\\scr_survivor_walk.yy",
+                "resourcePath": "scripts\\scr_bdxz_walk\\scr_bdxz_walk.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -218,7 +226,7 @@
             "Key": "39aee06e-00d0-4207-9a3a-363d1a70b2ae",
             "Value": {
                 "id": "73df428a-2069-4cc7-b337-ab6121afcd58",
-                "resourcePath": "scripts\\scr_survivor_create\\scr_survivor_create.yy",
+                "resourcePath": "scripts\\scr_bdxz_create\\scr_bdxz_create.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -235,6 +243,14 @@
             "Value": {
                 "id": "f0d95d7a-c4a5-448b-8837-e5919a4127e5",
                 "resourcePath": "sprites\\spr_HD002\\spr_HD002.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3bbb8438-eab1-4205-9490-d3a8beb2cce4",
+            "Value": {
+                "id": "f6b77ad8-640f-423a-a653-7c90ab465155",
+                "resourcePath": "sprites\\spr_bdxz_noGun_walk_front\\spr_bdxz_noGun_walk_front.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -290,7 +306,7 @@
             "Key": "4f3d6b3c-087c-4861-abfc-b7a10b103758",
             "Value": {
                 "id": "172afcdd-e4ce-48f5-a34e-1c013ee5d7c6",
-                "resourcePath": "sprites\\spr_survivor1_idle\\spr_survivor1_idle.yy",
+                "resourcePath": "sprites\\spr_bdxz_idle\\spr_bdxz_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -307,6 +323,30 @@
             "Value": {
                 "id": "8308e4f9-59e1-49f8-861d-20ff64826a95",
                 "resourcePath": "views\\528e4b4b-b50b-473d-a0f0-30268578a168.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5548f123-78e9-4d12-81ef-bf790afdb207",
+            "Value": {
+                "id": "c37ed073-e0b6-417f-b63a-6e392c728275",
+                "resourcePath": "views\\5548f123-78e9-4d12-81ef-bf790afdb207.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "558e7530-e78a-4f74-87a9-d92237fd0495",
+            "Value": {
+                "id": "0e4616f3-97cd-41eb-a623-eb23d575b8c1",
+                "resourcePath": "sprites\\spr_revolver_inHand\\spr_revolver_inHand.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "56a6e7b6-bb75-4bf8-953a-370191f393c0",
+            "Value": {
+                "id": "10bb9795-cc47-4fbf-b93b-f4f971b5461c",
+                "resourcePath": "views\\56a6e7b6-bb75-4bf8-953a-370191f393c0.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -335,11 +375,35 @@
             }
         },
         {
+            "Key": "6368ace4-00ca-4e27-9940-47dbcb634d38",
+            "Value": {
+                "id": "bb17f9f0-31b3-4ad7-8cdf-daecaa4f7c4d",
+                "resourcePath": "sprites\\spr_bdxz_noGun_idle\\spr_bdxz_noGun_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "657039a6-36e5-4cb5-b68f-2f2c85ff42a1",
+            "Value": {
+                "id": "923eea6f-7d72-414a-8553-9f812a5a377b",
+                "resourcePath": "objects\\obj_revolver\\obj_revolver.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "66c53037-a1b3-478f-bfed-ee6679713380",
             "Value": {
                 "id": "412f956d-7a24-4f73-8344-63b9e6c775b8",
                 "resourcePath": "scripts\\scr_zombie_generate\\scr_zombie_generate.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6841ab51-4b90-4b5c-8a52-eb688324ab77",
+            "Value": {
+                "id": "e0c0c043-cb05-4c93-b8da-98e526654062",
+                "resourcePath": "sprites\\spr_bdxz_revolver_walk_front\\spr_bdxz_revolver_walk_front.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -415,6 +479,14 @@
             }
         },
         {
+            "Key": "89785bce-5c2e-489f-bc38-69be2c93476f",
+            "Value": {
+                "id": "6b557ce4-79ca-4ee2-9ea4-eefd2315c7fd",
+                "resourcePath": "views\\89785bce-5c2e-489f-bc38-69be2c93476f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8d0691fa-619e-4ee6-84d1-8c2ab0306c8d",
             "Value": {
                 "id": "2f8f1e50-8bdf-4ff7-950e-62f54e4cdab0",
@@ -442,7 +514,7 @@
             "Key": "92b7a043-8e72-4e1f-96ac-a137ec7bb2b8",
             "Value": {
                 "id": "9591bb82-5a9a-4fa7-ae93-555701e43de0",
-                "resourcePath": "sprites\\spr_survivor1_walk_side\\spr_survivor1_walk_side.yy",
+                "resourcePath": "sprites\\spr_bdxz_walk_side\\spr_bdxz_walk_side.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -500,6 +572,14 @@
                 "id": "14a09d01-47bf-4905-822d-31c45d1c71fb",
                 "resourcePath": "objects\\obj_HD_parent\\obj_HD_parent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a599f001-55e9-40e1-b311-7df2838fa5c3",
+            "Value": {
+                "id": "8c05e3cc-595f-45e0-8c49-be28fba7b1ed",
+                "resourcePath": "sprites\\spr_revolver\\spr_revolver.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -615,11 +695,27 @@
             }
         },
         {
+            "Key": "c5a63bfc-fd38-4856-a763-2970f51f22f7",
+            "Value": {
+                "id": "b94294cf-2264-43ea-879c-07389fe51958",
+                "resourcePath": "scripts\\scr_bdxz_revolver_walk\\scr_bdxz_revolver_walk.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c8624495-9f34-4f9c-a275-a739a8c8a27d",
             "Value": {
                 "id": "2ed5ccdb-5cc0-485d-960e-bbafe7eadd5a",
                 "resourcePath": "scripts\\scr_zombie_types\\scr_zombie_types.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c90f2ff9-d306-44a4-aaae-e4cb8550a29d",
+            "Value": {
+                "id": "155e7787-b282-40c7-9d17-b7aa1379ad68",
+                "resourcePath": "sprites\\spr_bdxz_noGun_walk_side\\spr_bdxz_noGun_walk_side.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -663,6 +759,14 @@
             }
         },
         {
+            "Key": "d1061716-5629-4935-aed9-7761a3b8c362",
+            "Value": {
+                "id": "10e5ba4f-4a8c-4be5-a6c9-10c3da2e0e56",
+                "resourcePath": "views\\d1061716-5629-4935-aed9-7761a3b8c362.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d17fdc0c-87a1-4315-948c-3dc057390f9d",
             "Value": {
                 "id": "9913d5f6-684d-4d14-95b1-0f9f2146ef3e",
@@ -682,7 +786,7 @@
             "Key": "d62152ae-f013-45b7-b325-a05db3542404",
             "Value": {
                 "id": "f7132db2-f288-4a94-b6b5-e888e8abbf2c",
-                "resourcePath": "sprites\\spr_survivor1_walk_front\\spr_survivor1_walk_front.yy",
+                "resourcePath": "sprites\\spr_bdxz_walk_front\\spr_bdxz_walk_front.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -714,8 +818,24 @@
             "Key": "eb5794f1-ce08-4080-b581-62a8dcd89bf7",
             "Value": {
                 "id": "7d311005-b9d8-4a6c-bc2b-12ba9fea68d3",
-                "resourcePath": "objects\\obj_survivor001\\obj_survivor001.yy",
+                "resourcePath": "objects\\obj_bdxz\\obj_bdxz.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eff06133-938e-4bff-958c-22df9b671281",
+            "Value": {
+                "id": "d93c00b1-42a4-4bfb-a556-848def035e4a",
+                "resourcePath": "sprites\\spr_bdxz_revolver_walk_side\\spr_bdxz_revolver_walk_side.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f38efa37-bab2-4186-84f8-af9de5d9e22a",
+            "Value": {
+                "id": "2f542e1a-3234-4262-9216-126d29ba9acb",
+                "resourcePath": "views\\f38efa37-bab2-4186-84f8-af9de5d9e22a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -732,6 +852,14 @@
                 "id": "ad2bd2b3-098d-44b9-bce0-f1a206bf3b34",
                 "resourcePath": "objects\\obj_zombie003\\obj_zombie003.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f6ea9b6a-bb58-417a-b46e-12958a48262d",
+            "Value": {
+                "id": "b0ff7598-f744-48fb-bbba-1cc90e5d3e86",
+                "resourcePath": "scripts\\scr_bdxz_state\\scr_bdxz_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -764,9 +892,11 @@
         "cc174606-ffdd-48d7-ab07-78dec4a9b84b",
         "a9348fe9-e002-4a0c-84fe-db3de76419d6",
         "9c6538fd-387f-4cac-a750-a002e648861c",
-        "34859077-83a5-4e82-b1a1-a358331d0bd5",
         "39aee06e-00d0-4207-9a3a-363d1a70b2ae",
-        "14df8e32-897e-49a4-b2b5-9f1248fc51d9"
+        "14df8e32-897e-49a4-b2b5-9f1248fc51d9",
+        "f6ea9b6a-bb58-417a-b46e-12958a48262d",
+        "34859077-83a5-4e82-b1a1-a358331d0bd5",
+        "c5a63bfc-fd38-4856-a763-2970f51f22f7"
     ],
     "tutorial": ""
 }
