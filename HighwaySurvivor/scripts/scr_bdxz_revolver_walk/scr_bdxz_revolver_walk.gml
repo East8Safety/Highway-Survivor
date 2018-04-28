@@ -5,57 +5,144 @@ with(obj_bdxz){
 	//x += surSpeedOnCar;
 	if(!keyboard_check(ord("D"))&&!keyboard_check(ord("A"))){
 		if(keyboard_check(ord("W"))){
-			sprite_index = spr_bdxz_revolver_walk_front;
+			sprite_index = spr_bdxz_noGun_walk_front;
 			y -= surSpeed;
 		}
 		else if(keyboard_check(ord("S"))){
-			sprite_index = spr_bdxz_revolver_walk_front;
+			sprite_index = spr_bdxz_noGun_walk_front;
 			y += surSpeed;
 		}
 		else{
-			sprite_index = spr_bdxz_revolver_idle;
+			sprite_index = spr_bdxz_noGun_idle;
 		}
 	}
 	else if(!keyboard_check(ord("W"))&&!keyboard_check(ord("S"))){
 		if(keyboard_check(ord("A"))){
-			sprite_index = spr_bdxz_revolver_walk_side;
-			x -= 10;
-			scr_bdxz_direction(PlayerDirection.LEFT);
+			sprite_index = spr_bdxz_noGun_walk_side;
+			x -= surSpeed;
+			scr_bdxz_direction(survivorDirection.LEFT);
 		}
 		else if(keyboard_check(ord("D"))){
-			sprite_index = spr_bdxz_revolver_walk_side;
+			sprite_index = spr_bdxz_noGun_walk_side;
 			x += surSpeed;
-			scr_bdxz_direction(PlayerDirection.RIGHT);
+			scr_bdxz_direction(survivorDirection.RIGHT);
 		}
 		else{
-			sprite_index = spr_bdxz_revolver_idle;
+			sprite_index = spr_bdxz_noGun_idle;
 		}
 	}
 	else if(keyboard_check(ord("W")) && keyboard_check(ord("D"))){
-		sprite_index = spr_bdxz_revolver_walk_side;
+		sprite_index = spr_bdxz_noGun_walk_side;
 		x += surSpeed;
 		y -= surSpeed;
-		scr_bdxz_direction(PlayerDirection.UPRIGHT);
+		scr_bdxz_direction(survivorDirection.UPRIGHT);
 	}
 	else if(keyboard_check(ord("W")) && keyboard_check(ord("A"))){
-		sprite_index = spr_bdxz_revolver_walk_side;
+		sprite_index = spr_bdxz_noGun_walk_side;
 		x -= surSpeed;
 		y -= surSpeed;
-		scr_bdxz_direction(PlayerDirection.UPLEFT);
+		scr_bdxz_direction(survivorDirection.UPLEFT);
 	}
 	else if(keyboard_check(ord("S")) && keyboard_check(ord("D"))){
-		sprite_index = spr_bdxz_revolver_walk_side;
+		sprite_index = spr_bdxz_noGun_walk_side;
 		x += surSpeed;
 		y += surSpeed;
-		scr_bdxz_direction(PlayerDirection.DOWNRIGHT);
+		scr_bdxz_direction(survivorDirection.DOWNRIGHT);
 	}
 	else if(keyboard_check(ord("S")) && keyboard_check(ord("A"))){
-		sprite_index = spr_bdxz_revolver_walk_side;
+		sprite_index = spr_bdxz_noGun_walk_side;
 		x -= surSpeed;
 		y += surSpeed;
-		scr_bdxz_direction(PlayerDirection.DOWNLEFT);
+		scr_bdxz_direction(survivorDirection.DOWNLEFT);
 	}
 	else{
-		sprite_index = spr_bdxz_revolver_idle;
+		sprite_index = spr_bdxz_noGun_idle;
+	}
+}
+
+
+with(obj_revolver){
+	//x += surSpeedOnCar;
+	if(!keyboard_check(ord("D"))&&!keyboard_check(ord("A"))){
+		if(keyboard_check(ord("W"))){
+			sprite_index = spr_revolver_inHand;
+			y -= surSpeed;
+			if(surDirection = survivorDirection.LEFT){
+				image_angle = -90;
+			}
+			else if(surDirection = survivorDirection.RIGHT){
+				image_angle = 90;
+			}
+		}
+		else if(keyboard_check(ord("S"))){
+			sprite_index = spr_revolver_inHand;
+			y += surSpeed;
+			if(surDirection = survivorDirection.LEFT){
+				image_angle = 90;
+			}
+			else if(surDirection = survivorDirection.RIGHT){
+				image_angle = -90;
+			}
+		}
+		else{
+			sprite_index = spr_revolver_inHand;
+			image_angle = 0;
+		}
+	}
+	else if(!keyboard_check(ord("W"))&&!keyboard_check(ord("S"))){
+		if(keyboard_check(ord("A"))){
+			sprite_index = spr_revolver_inHand;
+			x -= surSpeed;
+			surDirection = survivorDirection.LEFT;
+			scr_gun_direction(survivorDirection.LEFT);
+			image_angle = 0;
+		}
+		else if(keyboard_check(ord("D"))){
+			sprite_index = spr_revolver_inHand;
+			x += surSpeed;
+			surDirection = survivorDirection.RIGHT;
+			scr_gun_direction(survivorDirection.RIGHT);
+			image_angle = 0;
+		}
+		else{
+			sprite_index = spr_revolver_inHand;
+			image_angle = 0;
+		}
+	}
+	else if(keyboard_check(ord("W")) && keyboard_check(ord("D"))){
+		sprite_index = spr_revolver_inHand;
+		x += surSpeed;
+		y -= surSpeed;
+		surDirection = survivorDirection.RIGHT;
+		scr_gun_direction(survivorDirection.UPRIGHT);
+		image_angle = 45;
+	}
+	else if(keyboard_check(ord("W")) && keyboard_check(ord("A"))){
+		sprite_index = spr_revolver_inHand;
+		x -= surSpeed;
+		y -= surSpeed;
+		surDirection = survivorDirection.LEFT;
+		scr_gun_direction(survivorDirection.UPLEFT);
+		image_angle = -45;
+	}
+	else if(keyboard_check(ord("S")) && keyboard_check(ord("D"))){
+		sprite_index = spr_revolver_inHand;
+		x += surSpeed;
+		y += surSpeed;
+		surDirection = survivorDirection.RIGHT;
+		scr_gun_direction(survivorDirection.DOWNRIGHT);
+		image_angle = -45;
+	}
+	else if(keyboard_check(ord("S")) && keyboard_check(ord("A"))){
+		sprite_index = spr_revolver_inHand;
+		x -= surSpeed;
+		y += surSpeed;
+		surDirection = survivorDirection.LEFT;
+		scr_gun_direction(survivorDirection.DOWNLEFT);
+		image_angle = 45;
+	}
+	else{
+		sprite_index = spr_revolver_inHand;
+		image_angle = 0;
 	}
 }

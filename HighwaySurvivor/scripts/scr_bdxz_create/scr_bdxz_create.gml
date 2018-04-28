@@ -1,4 +1,4 @@
-enum PlayerDirection{
+enum survivorDirection{
     UP,
     DOWN,
     LEFT,
@@ -8,11 +8,21 @@ enum PlayerDirection{
 	DOWNRIGHT,
 	DOWNLEFT
 }
+globalvar surDirection;
+surDirection = survivorDirection.RIGHT;
 
-enum survivorState{
+enum survivorMoveState{
 	idle,
 	walk,
 	idleWithGun,
-	walkWithGun
+	walkWithGun,
 }
-surState = survivorState.idle;
+globalvar SMState;
+SMState = survivorMoveState.idle;
+
+enum survivorAttackState{
+	fire,
+	ceasefire
+}
+globalvar SAState;
+SAState = survivorAttackState.ceasefire;

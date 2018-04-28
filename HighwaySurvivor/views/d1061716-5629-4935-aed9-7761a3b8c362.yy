@@ -9,7 +9,7 @@
         "3bbb8438-eab1-4205-9490-d3a8beb2cce4"
     ],
     "filterType": "GMSprite",
-    "folderName": "bdxz_noGun",
+    "folderName": "bdxz_gun",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
